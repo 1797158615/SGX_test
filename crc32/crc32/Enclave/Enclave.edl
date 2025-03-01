@@ -1,0 +1,7 @@
+enclave {
+ trusted {
+   public void d_crc32([out, in, size=4] void* _0, [out, in, size=4] void* _1);
+ };
+ untrusted {
+ };
+};

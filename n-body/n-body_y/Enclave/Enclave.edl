@@ -1,0 +1,7 @@
+enclave {
+ trusted {
+   public void d_n([out, in, size=8] double* _0, [out, in, size=8] double* _1);
+ };
+ untrusted {
+ };
+};

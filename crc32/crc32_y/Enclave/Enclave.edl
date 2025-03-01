@@ -1,0 +1,7 @@
+enclave {
+ trusted {
+   public void d_crc32([out, in, size=4] int* _0, [out, in, size=8] unsigned long* _1);
+ };
+ untrusted {
+ };
+};

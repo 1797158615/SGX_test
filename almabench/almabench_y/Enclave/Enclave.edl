@@ -1,0 +1,7 @@
+enclave {
+ trusted {
+   public void d_al([out, in, size=200] double* _0);
+ };
+ untrusted {
+ };
+};

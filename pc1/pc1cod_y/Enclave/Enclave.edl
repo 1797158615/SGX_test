@@ -1,0 +1,7 @@
+enclave {
+ trusted {
+   public void d_pc1([out, in, size=4] int* _0);
+ };
+ untrusted {
+ };
+};

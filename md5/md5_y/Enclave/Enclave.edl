@@ -1,0 +1,7 @@
+enclave {
+ trusted {
+   public void d_md5([out, in, size=4] int* _0, [out, in, size=16] unsigned char* _1);
+ };
+ untrusted {
+ };
+};
